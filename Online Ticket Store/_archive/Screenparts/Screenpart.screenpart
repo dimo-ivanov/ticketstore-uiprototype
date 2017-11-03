@@ -1,0 +1,77 @@
+﻿<?Infragistics.Models format="xaml" version="3" appVersion="9.2.1000.51"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                                                        xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                                                        Id="098a7ac8-1e06-48bc-96b3-a0bd4ae851d0" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="901" Height="1262" Background="#00FFFFFF" Id="47061eb0-fa48-4251-a439-0527e17e2b59">
+            <BorderedContent.Layers>
+                <Layer Id="fd1f9aea-7af2-4c73-bcc4-4dfb47defe7d" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="88f044b1-a654-44a1-881e-1b23ee8c3c69" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="369bfb2a-1cf8-4c25-8f7b-c0876b4302e5" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="54166dc3-ef47-4c53-8253-49149c5777fc" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Start" Created="11/02/2017 14:49:36" Id="f6b83390-423e-4fc7-9c7b-ce23a8c72cfd">
+            <Scene.KeyFrames>
+                <KeyFrame Id="5d989f8d-cf2c-4bd6-b54c-fa47734d409c">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="fd1f9aea-7af2-4c73-bcc4-4dfb47defe7d">
+                            <Add.Item>
+                                <Tabs FontSize="18" FontFamily="Cambria" Id="280f5d0c-f691-4dec-a995-3854c9db56fd" Panel.Bounds="0,0,901{5,2147483647},1262{5,2147483647}">
+                                    <Tabs.Items>
+                                        <TabItem Header="All" Id="96f95919-56a9-4949-b9a9-7e06f9bbacef">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="419a5641-8b8d-4fed-9a7f-fd179aa70ff3" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Music" Id="085fef97-7ee0-4469-a13e-6bef40ed5c07">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="13f29f50-6039-436f-9e9c-e67bb61df4ba" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Comedy" Id="68b8b5cb-a590-47fc-8146-d42166c52c22">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="5eef8d89-88e0-435d-88d1-28c53f4e83f8" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Sport" Id="31b8e2fb-314f-426a-97c2-fa98da43c1c5">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="73f66604-1e35-4bf9-ab6b-b7c88e233972" />
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="Family" IsSelected="True" Id="c3399c76-b831-4ade-b0e8-1b8054bc80af">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="723fc3ca-4490-4c1b-b3c8-7e7065d49cfb">
+                                                    <Container.Children>
+                                                        <Label RichText="Privacy" FontSize="18" FontFamily="Cambria" FontStyle="Bold" Id="30c11f7d-ef30-469f-af61-e4bc418da0cd" Panel.Bounds="418,1163,5*{5,2147483647},5*{5,2147483647}">
+                                                            <Label.Click>
+                                                                <CommandNavigate Screen="/Screen.screen" Created="11/02/2017 14:42:26" Id="ac01a70c-ac87-459e-91e6-6b6ec62aec8e">
+                                                                    <CommandNavigate.Transition>
+                                                                        <NavigateTransition Duration="0" />
+                                                                    </CommandNavigate.Transition>
+                                                                </CommandNavigate>
+                                                            </Label.Click>
+                                                        </Label>
+                                                    </Container.Children>
+                                                </Container>
+                                            </TabItem.Content>
+                                        </TabItem>
+                                    </Tabs.Items>
+                                </Tabs>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>
