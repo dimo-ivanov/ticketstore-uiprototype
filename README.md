@@ -5,10 +5,10 @@ SoftUni > Practical Teamwork - Sept 2017 > 03. Requirements and Prototyping
 
 
 ### Team members info: 
-* Aleksandur Zlatanov, softuni: Alex.zlatanov
-* Dimo Ivanov, softuni: dimo.ivanov
-* Kiril Koev, softuni: kirrcho6
-* Stoyan Zlatev, softuni: spzvtbg
+* [Aleksandur Zlatanov](https://softuni.bg/users/profile/show/Alex.zlatanov)
+* [Dimo Ivanov](https://softuni.bg/users/profile/show/dimo.ivanov)
+* [Kiril Koev](https://softuni.bg/users/profile/show/kirrcho6)
+* [Stoyan Zlatev](https://softuni.bg/users/profile/show/spzvtbg)
 
 
 ### Personal tasks:
