@@ -31,20 +31,15 @@
                         </Add>
                         <Add Property="Panel.Children" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
                             <Add.Item>
-                                <Title RichText="&lt;Run FontFamily=&quot;google:Bangers;400&quot; FontWeight=&quot;Normal&quot; FontStyle=&quot;Normal&quot; &gt;Ticket store&lt;/Run&gt;" Foreground="#FFFFFFFF" FontSize="72" Id="c5d9cd7d-9a08-40f9-86fe-86897d311949" Panel.Bounds="31,31,326{5,2147483647},72{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
-                            <Add.Item>
-                                <Button Text="log out" FontFamily="google:Bangers;400" Opacity="0.8" Id="694bcf42-9b0b-48fb-9547-d7e3566aeea9" Panel.Bounds="637,41,132{5,2147483647},23{5,2147483647}">
-                                    <Button.Click>
-                                        <CommandNavigate Screen="/Home.screen" Created="11/04/2017 21:49:37" Id="a6eb78c2-4e24-4065-aab3-22908e7ff205">
+                                <Title RichText="&lt;Run FontFamily=&quot;google:Bangers;400&quot; FontWeight=&quot;Normal&quot; FontStyle=&quot;Normal&quot; &gt;Ticket store&lt;/Run&gt;" Foreground="#FFFFFFFF" FontSize="72" Id="c5d9cd7d-9a08-40f9-86fe-86897d311949" Panel.Bounds="31,31,326{5,2147483647},72{5,2147483647}">
+                                    <Title.Click>
+                                        <CommandNavigate Screen="/Home.screen" Created="11/05/2017 13:37:54" Id="591ce483-a0c8-454d-aece-69b093dee4eb">
                                             <CommandNavigate.Transition>
                                                 <NavigateTransition Duration="0" />
                                             </CommandNavigate.Transition>
                                         </CommandNavigate>
-                                    </Button.Click>
-                                </Button>
+                                    </Title.Click>
+                                </Title>
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
@@ -62,54 +57,107 @@
                         </Add>
                         <Add Property="Panel.Children" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
                             <Add.Item>
-                                <Label RichText="&lt;Run FontSize=&quot;18&quot; Foreground=&quot;#FFFFFFFF&quot; &gt;administrator:&lt;/Run&gt;" Foreground="#FFFFFFFF" FontFamily="google:Bangers;400" Id="0e9f84e0-9b03-4091-b33c-aaaaca1123ad" Panel.Bounds="516,45,70*{5,2147483647},14{5,2147483647}" />
+                                <Button Text="Login" FontFamily="google:Bangers;400" Opacity="0.8" Id="2f815c37-4c81-4077-8537-015d674bd23e" Panel.Bounds="649,80,132{5,2147483647},23{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
                             <Add.Item>
-                                <Label RichText="&lt;Run Foreground=&quot;#FFFFFFFF&quot; &gt;profile&lt;/Run&gt;" FontFamily="google:Bangers;400" Id="b0b4d24f-ea67-4541-adc6-901eed7e654e" Panel.Bounds="736,74,5*{5,2147483647},5*{5,2147483647}" />
+                                <TextBox FontFamily="google:Bangers;400" Id="32a6814d-7030-4c2c-87fe-c8c8632920d1" Panel.Bounds="619,16,162{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
                             <Add.Item>
-                                <Label RichText="remove event" Foreground="#FFFFFFFF" FontFamily="google:Bangers;400" Id="f5747fbe-8e4f-4a9d-89e6-b3ae1237f59a" Panel.Bounds="663,74,5*{5,2147483647},5*{5,2147483647}">
-                                    <Label.Click>
-                                        <CommandNavigate Screen="/AdminDeletionAndAddition.screen" Created="11/05/2017 10:02:15" Id="a590d85a-f26d-4c37-8bd3-7a9538251417">
-                                            <CommandNavigate.Transition>
-                                                <NavigateTransition Duration="0" />
-                                            </CommandNavigate.Transition>
-                                        </CommandNavigate>
-                                    </Label.Click>
-                                </Label>
+                                <Label RichText="User name:" Foreground="#FFFFFFFF" FontFamily="google:Bangers;400" Id="a330321c-cdf2-4406-a420-8b6631a5669a" Panel.Bounds="561,19,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
                             <Add.Item>
-                                <Label RichText="update event" Foreground="#FFFFFFFF" FontFamily="google:Bangers;400" Id="c7103bda-d7b3-493a-932f-0a30e3729727" Panel.Bounds="593,74,5*{5,2147483647},5*{5,2147483647}">
-                                    <Label.Click>
-                                        <CommandNavigate Screen="/AdminDeletionAndAddition.screen" Created="11/05/2017 08:51:31" Id="be490d76-6637-4f73-8cfa-a64f3b39b84f">
-                                            <CommandNavigate.Transition>
-                                                <NavigateTransition Duration="0" />
-                                            </CommandNavigate.Transition>
-                                        </CommandNavigate>
-                                    </Label.Click>
-                                </Label>
+                                <Label RichText="password:" Foreground="#FFFFFFFF" FontFamily="google:Bangers;400" Id="b6b48f31-8205-48d5-914a-a286c41d5081" Panel.Bounds="561,49,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
                             <Add.Item>
-                                <Label RichText="add new event" Foreground="#FFFFFFFF" FontFamily="google:Bangers;400" Id="d2f28abc-91ed-44c6-af4c-abe773e05625" Panel.Bounds="516,74,5*{5,2147483647},5*{5,2147483647}">
-                                    <Label.Click>
-                                        <CommandSwitchTo SceneId="41d56dc0-1eef-4221-a1c8-fd239b2a23da" Created="11/05/2017 08:18:30" Id="489ecb28-9d67-408e-a4df-830c9fa2ce33" />
-                                    </Label.Click>
-                                </Label>
+                                <TextBox FontFamily="google:Bangers;400" Id="b0d6819e-1934-43c1-adf5-a185e61266d8" Panel.Bounds="619,46,162{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
+                            <Add.Item>
+                                <Rectangle Opacity="0.8" Id="f6c97dc4-5a15-4136-ab0d-142f883ea8ff" Panel.Bounds="31,134,750{5,2147483647},361{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
+                            <Add.Item>
+                                <Image SourcePath="assets/Upsurt _ Live Band.jpg" Id="b7f03b15-bb9c-4ef5-812f-b80b0deca993" Panel.Bounds="395,152,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
+                            <Add.Item>
+                                <Title RichText="upsurt band live" FontFamily="google:Bangers;400" Id="1a657859-186c-41b7-9212-65ee602bbbb0" Panel.Bounds="112,152,218{5,2147483647},37*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
+                            <Add.Item>
+                                <Label RichText="representing new album, modern show, new female vocals &#xD;&#xA;and new clothing brand" FontFamily="google:Bangers;400" Id="54789d96-98ed-43b0-9243-3a431196cc77" Panel.Bounds="81,218,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
+                            <Add.Item>
+                                <Label RichText="Location:                         terminal 1&#xD;&#xA;&#xD;&#xA;date:                                 21.11.17&#xD;&#xA;&#xD;&#xA;category:                        music&#xD;&#xA;&#xD;&#xA;price:                                $99&#xD;&#xA;&#xD;&#xA;available tickets:           300" FontSize="16" FontFamily="google:Bangers;400" Id="2f2dbd81-4dea-4f2d-b644-46417c22f442" Panel.Bounds="81,317,281{5,2147483647},161{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
+                            <Add.Item>
+                                <Button Text="add to cart" FontFamily="google:Bangers;400" Id="7bcb881d-e38c-4578-9dad-948dc0ef24d4" Panel.Bounds="614,401,155{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
+                            <Add.Item>
+                                <Icon CatalogId="fa-arrow-circle-right" Id="bb57a39b-161a-4e3c-8c02-d380b7e98305" Panel.Bounds="395,402,32{5,2147483647},32{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
+                            <Add.Item>
+                                <ComboBox FontFamily="google:Bangers;400" Id="f7317bb9-f0fb-4926-bd74-1f622901b3a8" Panel.Bounds="518,404,61{5,2147483647},28{5,2147483647}">
+                                    <ComboBox.Items>
+                                        <Item Text="1" Id="3231f516-17ae-4479-ad2b-88e89099282b" />
+                                        <Item Text="2" Id="eefda5c8-c6f6-4907-b743-e43a4235f13f" />
+                                        <Item Text="3" Id="0e705312-1aad-4b3b-831d-891b440ce6d2" />
+                                        <Item Text="4" Id="dbf8c558-c04a-4d90-8800-6560f5405590" />
+                                        <Item Text="5" Id="c6e845ee-d153-439c-911c-e48a7c2c97e6" />
+                                        <Item Text="6" Id="ba5569f2-8205-49d6-b0fa-e84510db468a" />
+                                        <Item Text="7" Id="d33e3406-954c-4e59-bed3-7555482d2ffa" />
+                                        <Item Text="8" Id="85ae4b79-5eeb-4f51-b897-131f391de36e" />
+                                        <Item Text="9" Id="6fc62dd2-56eb-4b9a-acf5-ee5356b0c2c8" />
+                                        <Item Text="10" IsSelected="True" Id="e29af206-18c0-411f-87ab-bad62a1069d1" />
+                                    </ComboBox.Items>
+                                </ComboBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
+                            <Add.Item>
+                                <Label RichText="tickets" FontSize="16" FontFamily="google:Bangers;400" Id="3b1ef887-307b-4d58-82cb-7f44edc5adfb" Panel.Bounds="462,409,71{5,2147483647},17{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
+                            <Add.Item>
+                                <Icon CatalogId="Share" Id="ee3bcae9-523a-4559-b4fd-b189bd39b043" Panel.Bounds="703,460,19{5,2147483647},19{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
+                            <Add.Item>
+                                <Icon CatalogId="fa-facebook" Id="d59c6981-59ea-48d8-89b9-95f0092b3e97" Panel.Bounds="722,460,19{5,2147483647},19{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
+                            <Add.Item>
+                                <Icon CatalogId="fa-google-plus" Id="ccd644a4-c0ca-4f47-85c8-038c18d2e5bb" Panel.Bounds="747,460,19{5,2147483647},19{5,2147483647}" />
                             </Add.Item>
                         </Add>
                     </KeyFrame.Operations>
                 </KeyFrame>
             </Scene.KeyFrames>
         </Scene>
-        <Scene Title="Tapped/Clicked add new event" StateGroup="394fd1bf-dfe9-449d-a9e7-12df0cdb61eb" ParentScene="394fd1bf-dfe9-449d-a9e7-12df0cdb61eb" Created="11/05/2017 08:18:30" Id="41d56dc0-1eef-4221-a1c8-fd239b2a23da">
+        <Scene Title="Disconnected State" StateGroup="394fd1bf-dfe9-449d-a9e7-12df0cdb61eb" ParentScene="394fd1bf-dfe9-449d-a9e7-12df0cdb61eb" Created="11/05/2017 08:18:30" Id="41d56dc0-1eef-4221-a1c8-fd239b2a23da">
             <Scene.KeyFrames>
                 <KeyFrame Id="9343e3d6-861f-4f4d-ba49-63bf71408201">
                     <KeyFrame.Operations>

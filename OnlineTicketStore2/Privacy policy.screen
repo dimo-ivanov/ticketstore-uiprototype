@@ -27,7 +27,7 @@
                             <Add.Item>
                                 <Title RichText="Ticket Store" Align="Center" Foreground="#FFFFFFFF" FontSize="72" FontFamily="Cambria" FontStyle="Bold" Id="ce47dfc2-4e6c-4162-ae8e-1389724da66b" Panel.Bounds="266,176,579{5,2147483647},73{5,2147483647}">
                                     <Title.Click>
-                                        <CommandNavigate Screen="/IndexUnloged.screen" Created="11/04/2017 22:32:55" Id="368a4978-516b-4aa2-8472-20f606912718">
+                                        <CommandNavigate Screen="/Home.screen" Created="11/04/2017 22:32:55" Id="368a4978-516b-4aa2-8472-20f606912718">
                                             <CommandNavigate.Transition>
                                                 <NavigateTransition Duration="0" />
                                             </CommandNavigate.Transition>
@@ -55,7 +55,7 @@
                             <Add.Item>
                                 <Title RichText="Ticket Store:" Foreground="#FFFFFFFF" FontSize="72" FontFamily="Cambria" Id="f9791202-c89a-45b2-ab3c-f96ac0ad1fc1" Panel.Bounds="199,37,5*{5,2147483647},5*{5,2147483647}">
                                     <Title.Click>
-                                        <CommandNavigate Screen="/IndexUnloged.screen" Created="11/04/2017 22:38:24" Id="25156ffb-724c-4b65-bd4d-549d95d90c9f">
+                                        <CommandNavigate Screen="/Home.screen" Created="11/04/2017 22:38:24" Id="25156ffb-724c-4b65-bd4d-549d95d90c9f">
                                             <CommandNavigate.Transition>
                                                 <NavigateTransition Duration="0" />
                                             </CommandNavigate.Transition>

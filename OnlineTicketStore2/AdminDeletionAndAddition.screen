@@ -37,7 +37,7 @@
                             <Add.Item>
                                 <Button Text="log out" FontFamily="google:Bangers;400" Opacity="0.8" Id="694bcf42-9b0b-48fb-9547-d7e3566aeea9" Panel.Bounds="653,15,132{5,2147483647},23{5,2147483647}">
                                     <Button.Click>
-                                        <CommandNavigate Screen="/IndexUnloged.screen" Created="11/04/2017 21:50:20" Id="355ef53e-fab1-4281-9253-183003a3a01e">
+                                        <CommandNavigate Screen="/Home.screen" Created="11/04/2017 21:50:20" Id="355ef53e-fab1-4281-9253-183003a3a01e">
                                             <CommandNavigate.Transition>
                                                 <NavigateTransition Duration="0" />
                                             </CommandNavigate.Transition>

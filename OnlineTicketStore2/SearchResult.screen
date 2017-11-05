@@ -1,0 +1,279 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   xmlns:i="http://prototypes.infragistics.com/ios7/"
+                                                                                   Id="fd75bcc2-dc37-41c5-b330-a7e82cc920f4">
+    <Page.Content>
+        <Content Width="800" Height="600" Id="16e38c20-56e9-46cc-80bf-5849ba58c48a">
+            <Content.Layers>
+                <Layer Id="022d01e7-8bc9-4209-a331-076f47c00e0c" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="924f8b61-57a3-450e-a4ba-3604b9915d2f" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="800,600" Id="3d0596d7-5f44-4cb3-b8ac-7eab0cc90d29" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="beec7ccf-78de-48a7-b6e0-2e5bcd423b83" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/04/2017 21:20:30" Id="394fd1bf-dfe9-449d-a9e7-12df0cdb61eb">
+            <Scene.KeyFrames>
+                <KeyFrame Id="cf1717c0-660c-4014-96e3-287ab810b8bf">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
+                            <Add.Item>
+                                <Image SourcePath="assets/DSC_0550.jpg" Id="d1eabf5c-41a8-4147-952d-f5cb93996194" Panel.Bounds="0,0,800{5,2147483647},600{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
+                            <Add.Item>
+                                <Title RichText="&lt;Run FontFamily=&quot;google:Bangers;400&quot; FontWeight=&quot;Normal&quot; FontStyle=&quot;Normal&quot; &gt;Ticket store&lt;/Run&gt;" Foreground="#FFFFFFFF" FontSize="72" Id="c5d9cd7d-9a08-40f9-86fe-86897d311949" Panel.Bounds="179,0,326{5,2147483647},72{5,2147483647}">
+                                    <Title.Click>
+                                        <CommandNavigate Screen="/Home.screen" Created="11/05/2017 13:39:55" Id="9b83560c-983c-45a6-9a8a-492726b6f06b">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Title.Click>
+                                </Title>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
+                            <Add.Item>
+                                <Label RichText="privacy police" Foreground="#FFFFFFFF" FontFamily="google:Bangers;400" Id="85a3b6d2-3223-46ef-9a68-6a7a1b0dffde" Panel.Bounds="19,572,5*{5,2147483647},5*{5,2147483647}">
+                                    <Label.Click>
+                                        <CommandNavigate Screen="/Privacy policy.screen" Created="11/04/2017 22:59:05" Id="fe4a89f4-3a41-4185-9827-2f7f0600d7b8">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Label.Click>
+                                </Label>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
+                            <Add.Item>
+                                <Tabs Background="#FF1A4E21" TabBackground="#FF1A4E21" BorderThickness="0" Foreground="#FFFFFFFF" FontFamily="google:Bangers;400" Opacity="1" Id="a8d6f6b4-1d2b-45ba-afc8-a570214eb1ff" Panel.Bounds="18,69,767{5,2147483647},492{5,2147483647}">
+                                    <Tabs.Items>
+                                        <TabItem Header="results" IsSelected="True" Id="5dd5f8bc-2ec8-44b0-bc27-4d387182c8e3">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="6a43c596-4053-4468-a453-ed6631d990e5">
+                                                    <Container.Children>
+                                                        <ContainerBox Opacity="0.8" Id="3860ff02-a429-48ea-b1cd-9b052d2aeb8e" Panel.Bounds="6,7,755{5,2147483647},72{5,2147483647}">
+                                                            <ContainerBox.Content>
+                                                                <Container ClipToContainer="True" Id="8f4032b8-09c7-454f-901c-70587c50ff4f">
+                                                                    <Container.Children>
+                                                                        <Image SourcePath="assets/Bananarama 6 8 Thumbnail(1).jpg" Id="130f8f6f-45e5-41e1-9670-3ca8e3fd4d5b" Panel.Bounds="6,10,230{5,2147483647},48{5,2147483647}" />
+                                                                        <Label RichText="some populare girlband, they will singen somewhere soon  -  locationt: &#xD;&#xA;date:   DD / MM / YYYY&#xD;&#xA;                                                                                                                                                                                                                                                                                                                           " FontFamily="google:Bangers;400" Id="1f04cdfd-4b3e-4f43-b6a5-a8720c0fc7b4" Panel.Bounds="245,11,341{5,2147483647},47{5,2147483647}" />
+                                                                        <Button Text="buy now" FontFamily="google:Bangers;400" Id="ff000f34-f3e8-47c4-8af1-74cbd1e83f1f" Panel.Bounds="598,34,142{5,2147483647},23{5,2147483647}">
+                                                                            <Button.Click>
+                                                                                <CommandSwitchTo SceneId="8b925474-3a30-46b1-8c19-6a411c0ec757" Created="11/05/2017 12:43:00" Id="16a79dd0-f603-46e2-aae8-bf9ae73782a1" />
+                                                                            </Button.Click>
+                                                                        </Button>
+                                                                        <Label RichText="price 100,00$" FontFamily="google:Bangers;400" Id="ed6fda82-3c0e-438a-a8ca-56c401516ec4" Panel.Bounds="637,10,5*{5,2147483647},5*{5,2147483647}" />
+                                                                    </Container.Children>
+                                                                </Container>
+                                                            </ContainerBox.Content>
+                                                            <ContainerBox.Click>
+                                                                <CommandNavigate Screen="/Event Details.screen" Created="11/05/2017 13:39:17" Id="52a9fb5b-f0e0-49d1-8ab9-0d4039d92549">
+                                                                    <CommandNavigate.Transition>
+                                                                        <NavigateTransition Duration="0" />
+                                                                    </CommandNavigate.Transition>
+                                                                </CommandNavigate>
+                                                            </ContainerBox.Click>
+                                                        </ContainerBox>
+                                                        <ContainerBox Opacity="0.8" Id="7f08d281-c1ce-4818-87e6-72a0e3538ddd" Panel.Bounds="5,84,755{5,2147483647},72{5,2147483647}">
+                                                            <ContainerBox.Content>
+                                                                <Container ClipToContainer="True" Id="0ae37b28-7608-4bb9-bc97-1f4cd5d49230">
+                                                                    <Container.Children>
+                                                                        <Label RichText="some populare singer, he will singen somewhere soon    &#xD;&#xA;locationt:  somewhere(country, town, location address)&#xD;&#xA;date:   DD / MM / YYYY&#xD;&#xA;                                                                                                                                                                                                                                                                                                                           " FontFamily="google:Bangers;400" Id="e2a53c7f-45bd-4a79-8ab9-135599ca9749" Panel.Bounds="245,11,341{5,2147483647},47{5,2147483647}" />
+                                                                        <Label RichText="price 100,00$" FontFamily="google:Bangers;400" Id="4bbb80ce-b79d-4bcb-b9da-7ebacc273def" Panel.Bounds="637,10,5*{5,2147483647},5*{5,2147483647}" />
+                                                                        <Image SourcePath="assets/Bill Bailey 2018 6 8 Thumbnail.jpg" Id="52fa14b2-a7e4-4bac-8464-0bb271acbeec" Panel.Bounds="7,7,230{5,2147483647},56{5,2147483647}" />
+                                                                        <Label RichText="some populare singer, he will singen somewhere soon    &#xD;&#xA;locationt:  somewhere(country, town, location address)&#xD;&#xA;date:   DD / MM / YYYY&#xD;&#xA;                                                                                                                                                                                                                                                                                                                           " FontFamily="google:Bangers;400" Id="3d5a6b27-e4c6-4c96-8acf-89bb8516ed8c" Panel.Bounds="246,-65,341{5,2147483647},47{5,2147483647}" />
+                                                                        <Button Text="buy now" FontFamily="google:Bangers;400" Id="74954612-04b7-4bcd-87f4-66a8c9339c67" Panel.Bounds="605,35,142{5,2147483647},23{5,2147483647}" />
+                                                                    </Container.Children>
+                                                                </Container>
+                                                            </ContainerBox.Content>
+                                                        </ContainerBox>
+                                                        <ContainerBox Opacity="0.8" Id="b0d3f8e0-244e-4d08-94d9-4507e4f13f58" Panel.Bounds="5,161,755{5,2147483647},72{5,2147483647}">
+                                                            <ContainerBox.Content>
+                                                                <Container ClipToContainer="True" Id="09d3b762-42ad-4878-8cb6-b2b0c3590f27">
+                                                                    <Container.Children>
+                                                                        <Label RichText="some populare singers, they will singen somewhere soon  &#xD;&#xA;locationt: somewhere (Country, town, address) &#xD;&#xA;date:   DD / MM / YYYY&#xD;&#xA;                                                                                                                                                                                                                                                                                                                           " FontFamily="google:Bangers;400" Id="d07f1f2b-00fa-4162-9276-8d06c57308eb" Panel.Bounds="245,11,341{5,2147483647},47{5,2147483647}" />
+                                                                        <Label RichText="price 100,00$" FontFamily="google:Bangers;400" Id="05a337f8-a96e-4e18-9465-340d61821ea7" Panel.Bounds="637,10,5*{5,2147483647},5*{5,2147483647}" />
+                                                                        <Image SourcePath="assets/Jake Bugg 6 8 Thumbnail.jpg" Id="ccb15870-b18f-44c3-ba4a-8e2d35fb1137" Panel.Bounds="6,6,230{5,2147483647},58{5,2147483647}" />
+                                                                        <Button Text="buy now" FontFamily="google:Bangers;400" Id="a93b252a-502d-4bd8-9406-d68d988b78df" Panel.Bounds="605,35,142{5,2147483647},23{5,2147483647}" />
+                                                                    </Container.Children>
+                                                                </Container>
+                                                            </ContainerBox.Content>
+                                                        </ContainerBox>
+                                                        <ContainerBox Opacity="0.8" Id="8fa66b43-efb9-47c9-9f6e-9492f9e922a8" Panel.Bounds="5,238,755{5,2147483647},72{5,2147483647}">
+                                                            <ContainerBox.Content>
+                                                                <Container ClipToContainer="True" Id="a7f407b3-0a0d-44ba-a97a-768f807ab932">
+                                                                    <Container.Children>
+                                                                        <Label RichText="some populare singers, they will singen somewhere soon  &#xD;&#xA;locationt: somewhere (Country, town, address) &#xD;&#xA;date:   DD / MM / YYYY&#xD;&#xA;                                                                                                                                                                                                                                                                                                                           " FontFamily="google:Bangers;400" Id="9f77f381-81ac-4070-b120-78c32d85d927" Panel.Bounds="245,11,341{5,2147483647},47{5,2147483647}" />
+                                                                        <Label RichText="price 100,00$" FontFamily="google:Bangers;400" Id="0848c3aa-4c64-41da-9f71-60c9ee6fda9e" Panel.Bounds="637,10,5*{5,2147483647},5*{5,2147483647}" />
+                                                                        <Image SourcePath="assets/Placebo 6 8 Thumbnail.jpg" Id="3e8fd61a-5b1e-4639-b5d9-b10cb580219c" Panel.Bounds="6,6,230{5,2147483647},58{5,2147483647}" />
+                                                                        <Button Text="buy now" FontFamily="google:Bangers;400" Id="307ee9d9-d03d-4e3c-b155-080608793f27" Panel.Bounds="605,35,142{5,2147483647},23{5,2147483647}" />
+                                                                    </Container.Children>
+                                                                </Container>
+                                                            </ContainerBox.Content>
+                                                            <ContainerBox.Click>
+                                                                <CommandNavigate Screen="/BuyPage.screen" Created="11/04/2017 23:53:44" Id="65488516-0ee7-4e7c-acba-b8d11c52744c">
+                                                                    <CommandNavigate.Transition>
+                                                                        <NavigateTransition Duration="0" />
+                                                                    </CommandNavigate.Transition>
+                                                                </CommandNavigate>
+                                                            </ContainerBox.Click>
+                                                        </ContainerBox>
+                                                        <ContainerBox Opacity="0.8" Id="55a1fab8-61a5-4e3d-ae98-9b538f421d5d" Panel.Bounds="6,315,755{5,2147483647},72{5,2147483647}">
+                                                            <ContainerBox.Content>
+                                                                <Container ClipToContainer="True" Id="3199e72c-f023-41f3-8836-78d57a94549b">
+                                                                    <Container.Children>
+                                                                        <Label RichText="some populare singers, they will singen somewhere soon  &#xD;&#xA;locationt: somewhere (Country, town, address) &#xD;&#xA;date:   DD / MM / YYYY&#xD;&#xA;                                                                                                                                                                                                                                                                                                                           " FontFamily="google:Bangers;400" Id="c513cef8-bcfe-4316-b352-490f07c9ebe9" Panel.Bounds="245,11,341{5,2147483647},47{5,2147483647}" />
+                                                                        <Label RichText="price 100,00$" FontFamily="google:Bangers;400" Id="8b9c399a-10e3-48b6-a928-3dd7eb2e98bb" Panel.Bounds="637,10,5*{5,2147483647},5*{5,2147483647}" />
+                                                                        <Image SourcePath="assets/Bruno-Mars’-“24K-Magic-in-the-Air”-is-Invading-the-Philippines-Concert-Ground-Soon-min.jpg" Id="7f18c175-14c9-4911-a476-77d79d137a6c" Panel.Bounds="5,5,231{5,2147483647},58{5,2147483647}" />
+                                                                        <Button Text="buy now" FontFamily="google:Bangers;400" Id="ea2b56aa-eb0f-4210-8fb8-ce888136063a" Panel.Bounds="604,35,142{5,2147483647},23{5,2147483647}" />
+                                                                    </Container.Children>
+                                                                </Container>
+                                                            </ContainerBox.Content>
+                                                        </ContainerBox>
+                                                        <ContainerBox Opacity="0.8" Id="c9e1b904-7268-4f9a-853b-f2b8122f0260" Panel.Bounds="6,392,755{5,2147483647},72{5,2147483647}">
+                                                            <ContainerBox.Content>
+                                                                <Container ClipToContainer="True" Id="5a3dcd68-8afb-4f22-89d2-008fc655529d">
+                                                                    <Container.Children>
+                                                                        <Label RichText="some populare singers, they will singen somewhere soon  &#xD;&#xA;locationt: somewhere (Country, town, address) &#xD;&#xA;date:   DD / MM / YYYY&#xD;&#xA;                                                                                                                                                                                                                                                                                                                           " FontFamily="google:Bangers;400" Id="77e5cbae-42c8-44b5-9118-609c8f22ed8a" Panel.Bounds="245,11,341{5,2147483647},47{5,2147483647}" />
+                                                                        <Label RichText="price 100,00$" FontFamily="google:Bangers;400" Id="a205d9d3-7281-4184-9811-b590d63f0220" Panel.Bounds="637,10,5*{5,2147483647},5*{5,2147483647}" />
+                                                                        <Image SourcePath="assets/Upsurt _ Live Band(1).jpg" Id="c378328f-6782-4b21-947a-3ddef7876919" Panel.Bounds="5,5,231{5,2147483647},60{5,2147483647}" />
+                                                                        <Button Text="buy now" FontFamily="google:Bangers;400" Id="8e1c1882-599a-40fb-a48a-6209db92b7c6" Panel.Bounds="604,35,142{5,2147483647},23{5,2147483647}" />
+                                                                    </Container.Children>
+                                                                </Container>
+                                                            </ContainerBox.Content>
+                                                        </ContainerBox>
+                                                    </Container.Children>
+                                                </Container>
+                                            </TabItem.Content>
+                                        </TabItem>
+                                        <TabItem Header="New search" Id="c9949082-ed3c-4678-bc52-d6ee501943dc" Name="&lt;?Infragistics.Models format=&quot;xaml&quot;?&gt;">
+                                            <TabItem.Content>
+                                                <Container ClipToContainer="True" Id="96b65c7c-c6f6-4153-b721-94e7bc82bca2">
+                                                    <Container.Children>
+                                                        <Rectangle Background="#FFA3E0AB" Id="9f9d2cf5-f1e6-4d1a-a9fd-dc313f350094" Panel.Bounds="103,45,568{5,2147483647},360{5,2147483647}" />
+                                                        <Icon Color="#FFFFFFFF" CatalogId="Search" Opacity="0.4" Id="4168e621-0c2f-445c-a722-2e6a6a79879a" Panel.Bounds="246,-6,480{5,2147483647},480{5,2147483647}" />
+                                                        <Rectangle Id="0f89bdc0-8cf1-45e0-9aa5-b7f359e34671" Panel.Bounds="358,225,125{5,2147483647},28{5,2147483647}" />
+                                                        <TextBox WatermarkText="location" FontSize="18" FontFamily="google:Bangers;400" Opacity="1" Id="950557a0-48da-4874-bf01-df5fce3802c1" Panel.Bounds="280,131,203{5,2147483647},5*{5,2147483647}" />
+                                                        <Icon CatalogId="fa-arrow-right" Id="113c78cd-8c83-4204-93e5-833e2eb22dbb" Panel.Bounds="249,131,19{5,2147483647},19{5,2147483647}" />
+                                                        <Icon CatalogId="fa-arrow-right" Id="4ea5c4c9-27d8-46e6-8512-6bb8e86a95c2" Panel.Bounds="249,169,19{5,2147483647},19{5,2147483647}" />
+                                                        <i:DatePicker DisplayCurrentDate="True" Format="Date" DateTime="11/05/2017 13:27:00" FontSize="16" FontFamily="google:Bangers;400" Id="3e2c212d-c5c6-4956-b7d0-8d15cfa7a21f" Panel.Bounds="387,232,94{5,2147483647},26{5,2147483647}" />
+                                                        <Label RichText="FROM:" FontSize="16" FontFamily="google:Bangers;400" Id="59edb72b-f21d-4c9b-9ce8-ed497ecb79a8" Panel.Bounds="280,230,47{5,2147483647},19{5,2147483647}" />
+                                                        <Title RichText="date:" FontSize="18" FontFamily="google:Bangers;400" Id="b0df6740-8950-480e-992b-f81a6c7bfde3" Panel.Bounds="282,203,51{5,2147483647},26{5,2147483647}" />
+                                                        <ComboBox Hint="CATegory" FontSize="18" FontFamily="google:Bangers;400" Id="f5f5d7c1-8e9d-429b-8458-26b8b4fb1a12" Panel.Bounds="280,164,203{5,2147483647},28{5,2147483647}">
+                                                            <ComboBox.Items>
+                                                                <Item Text="music" Id="4aaffa3a-5781-4124-9339-148d61e1b513" />
+                                                                <Item Text="theather" Id="8bf232f2-f1f5-4184-bcc4-fa1f01176550" />
+                                                                <Item Text="cinema" Id="ec784c1f-0701-41a0-acce-46cdc984ee7e" />
+                                                                <Item Text="sport" Id="e4d104b2-8e16-4333-ab35-c1b29e4c4f61" />
+                                                                <Item Text="festivals" Id="2f3f7a66-1bf5-4376-9e8d-3cb0dd276f90" />
+                                                            </ComboBox.Items>
+                                                        </ComboBox>
+                                                        <Icon CatalogId="fa-arrow-right" Id="2af3407a-c6d7-4659-83ad-c0a18af8b099" Panel.Bounds="249,204,19{5,2147483647},19{5,2147483647}" />
+                                                        <Rectangle Id="13d378c2-57e1-4f5e-8bea-f622e9778d3f" Panel.Bounds="358,254,125{5,2147483647},28{5,2147483647}" />
+                                                        <i:DatePicker DisplayCurrentDate="True" Format="Date" DateTime="11/05/2017 13:27:00" FontSize="16" FontFamily="google:Bangers;400" Id="3ebff80c-7edb-47fc-911f-d004f17fed06" Panel.Bounds="387,261,94{5,2147483647},26{5,2147483647}" />
+                                                        <Label RichText="until:" FontSize="16" FontFamily="google:Bangers;400" Id="1c60bf99-d647-4047-8914-e158e133cacc" Panel.Bounds="280,259,47{5,2147483647},19{5,2147483647}" />
+                                                        <TextBox WatermarkText="key words" FontSize="18" FontFamily="google:Bangers;400" Opacity="1" Id="5a543eb1-b3cc-4fd6-8a9d-51474824de1c" Panel.Bounds="280,98,203{5,2147483647},5*{5,2147483647}" />
+                                                        <Icon CatalogId="fa-arrow-right" Id="5af4eb74-a29e-4d73-9504-319c2adf3a8f" Panel.Bounds="249,98,19{5,2147483647},19{5,2147483647}" />
+                                                        <Icon Color="#FFFFFFFF" CatalogId="Search" Opacity="0.4" Id="b1b873df-17aa-4fb5-ba5f-21036f221ef7" Panel.Bounds="47,223,175{5,2147483647},175{5,2147483647}" />
+                                                        <Icon CatalogId="fa-arrow-right" Id="2d6588fa-938a-4f48-8bd8-eea2124d7c3e" Panel.Bounds="249,299,19{5,2147483647},19{5,2147483647}" />
+                                                        <Button Text="go" Background="#FF277531" Foreground="#FFFFFFFF" FontSize="21" FontFamily="google:Bangers;400" Id="27251796-e9ce-44f9-a3d5-e91749d323fc" Panel.Bounds="280,295,203{5,2147483647},35{5,2147483647}">
+                                                            <Button.Click>
+                                                                <CommandNavigate Screen="/SearchResult.screen" Created="11/05/2017 13:05:21" Id="d9efd1a1-c0a3-408f-86cc-72d7963d15eb">
+                                                                    <CommandNavigate.Transition>
+                                                                        <NavigateTransition Duration="0" />
+                                                                    </CommandNavigate.Transition>
+                                                                </CommandNavigate>
+                                                            </Button.Click>
+                                                        </Button>
+                                                    </Container.Children>
+                                                </Container>
+                                            </TabItem.Content>
+                                        </TabItem>
+                                    </Tabs.Items>
+                                </Tabs>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
+                            <Add.Item>
+                                <Label RichText="User name:" Foreground="#FFFFFFFF" FontFamily="google:Bangers;400" Id="2140ccd2-1ac6-46b5-80b6-c52dc0b518f4" Panel.Bounds="561,11,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
+                            <Add.Item>
+                                <Label RichText="password:" Foreground="#FFFFFFFF" FontFamily="google:Bangers;400" Id="af310360-0ea8-40e4-a436-e7b5a8764c37" Panel.Bounds="561,41,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
+                            <Add.Item>
+                                <TextBox FontFamily="google:Bangers;400" Id="2df17677-02c3-40cd-9962-4a0127fd1159" Panel.Bounds="619,38,162{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="2140ccd2-1ac6-46b5-80b6-c52dc0b518f4" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
+                            <Add.Item>
+                                <Button Text="Login" FontFamily="google:Bangers;400" Opacity="0.8" Id="edd51cf1-21b5-48a0-b335-413cdfae5d03" Panel.Bounds="649,67,132{5,2147483647},23{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Before="2140ccd2-1ac6-46b5-80b6-c52dc0b518f4" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
+                            <Add.Item>
+                                <TextBox FontFamily="google:Bangers;400" Id="890e1cc4-7ce3-4b3b-83b5-21dd7e8602a7" Panel.Bounds="619,8,162{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped/Clicked buy now" StateGroup="394fd1bf-dfe9-449d-a9e7-12df0cdb61eb" ParentScene="394fd1bf-dfe9-449d-a9e7-12df0cdb61eb" Created="11/05/2017 12:43:00" Id="8b925474-3a30-46b1-8c19-6a411c0ec757">
+            <Scene.KeyFrames>
+                <KeyFrame Id="476feae6-c989-48f9-809b-2b9e659bdd6d">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
+                            <Add.Item>
+                                <Rectangle Thickness="2" Color="#FFAAAA00" Background="#FE143F1A" Id="0ef7dc2a-8379-4d1a-8778-7f69a97c4ba2" Panel.Bounds="225,240,353{5,2147483647},208{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
+                            <Add.Item>
+                                <Label RichText="please, login first!" Foreground="#FE707000" FontSize="18" FontFamily="google:Bangers;400" Id="f03036d2-63c1-4ff7-8049-91e3b3be84bd" Panel.Bounds="338,280,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
+                            <Add.Item>
+                                <Button Text="Login" FontFamily="google:Bangers;400" Opacity="0.8" Id="3b0e5ad9-91e8-4153-b087-7f908f78dbb1" Panel.Bounds="326,390,162{5,2147483647},23{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/IndexLogedIn.screen" Created="11/05/2017 12:49:25" Id="b836340b-631d-41f1-b16a-97b78e92f0dd">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
+                            <Add.Item>
+                                <TextBox WatermarkText="username" FontFamily="google:Bangers;400" Id="0dd4ecf6-97d8-4b0f-a3d6-30552c64922e" Panel.Bounds="326,321,162{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
+                            <Add.Item>
+                                <TextBox WatermarkText="password" FontFamily="google:Bangers;400" Id="d701554c-7c61-428e-84b6-bfc3085a7c1b" Panel.Bounds="326,351,162{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

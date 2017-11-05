@@ -37,7 +37,7 @@
                             <Add.Item>
                                 <Title RichText="Ticket store" Foreground="#FFFFFFFF" FontSize="72" FontFamily="google:Bangers;400" Id="da54f761-1f3a-469d-ae5b-7a1d80223888" Panel.Bounds="230,10,5*{5,2147483647},5*{5,2147483647}">
                                     <Title.Click>
-                                        <CommandNavigate Screen="/IndexUnloged.screen" Created="11/04/2017 22:43:31" Id="0cedbb20-936d-44e2-8a54-f46b7477e73f">
+                                        <CommandNavigate Screen="/Home.screen" Created="11/04/2017 22:43:31" Id="0cedbb20-936d-44e2-8a54-f46b7477e73f">
                                             <CommandNavigate.Transition>
                                                 <NavigateTransition Duration="0" />
                                             </CommandNavigate.Transition>
