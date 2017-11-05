@@ -1,0 +1,114 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   Id="e3ac1b6d-cb03-4bfc-a9ac-39236d2189a1">
+    <Page.Content>
+        <Content Width="800" Height="600" Id="d8425f6f-8be0-4bd6-b962-f8278d72cfa0">
+            <Content.Layers>
+                <Layer Id="4e6aa916-f497-425d-9a48-35b87d17604e" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="c639674c-215b-48ab-853b-8c4efa7dfdc9" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="800,600" Id="0674dc84-e988-4904-8426-c534e663bd31" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="8311e14a-ebd3-4a9e-8501-13a1db378b62" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/04/2017 23:27:18" Id="5a676245-8dc0-4d61-a501-276498e96a14">
+            <Scene.KeyFrames>
+                <KeyFrame Id="88e875ab-fb70-44ac-948e-116659d9bc9c">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="4e6aa916-f497-425d-9a48-35b87d17604e">
+                            <Add.Item>
+                                <Image SourcePath="assets/thrth.jpg" Id="361995fa-a5ec-48df-8481-4b6e6c9445d0" Panel.Bounds="0,0,800{5,2147483647},600{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4e6aa916-f497-425d-9a48-35b87d17604e">
+                            <Add.Item>
+                                <Title RichText="Ticket store" FontSize="72" FontFamily="google:Bangers;400" Id="c2e1adcd-56cf-403c-905b-b1effd01e90c" Panel.Bounds="33,33,5*{5,2147483647},5*{5,2147483647}">
+                                    <Title.Click>
+                                        <CommandNavigate Screen="/IndexLogedIn.screen" Created="11/04/2017 23:50:31" Id="b7ac8163-b7c6-47f1-98c5-867a791e3ff7">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Title.Click>
+                                </Title>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4e6aa916-f497-425d-9a48-35b87d17604e">
+                            <Add.Item>
+                                <Title RichText="user name" FontFamily="google:Bangers;400" Id="be0d4b84-97fb-445e-b0eb-d6d382bb014f" Panel.Bounds="642,53,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4e6aa916-f497-425d-9a48-35b87d17604e">
+                            <Add.Item>
+                                <ContainerBox Opacity="0.6" Id="54546d95-a4d1-4f78-97ac-74117701b7e0" Panel.Bounds="110,118,580{5,2147483647},338{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="504ecac7-5d9d-464b-ad06-a8b73a1712a5">
+                                            <Container.Children>
+                                                <Title RichText="you are allmost there" FontSize="21" FontFamily="google:Bangers;400" Id="510ca5f1-6852-43a8-8794-d878035ed403" Panel.Bounds="222,5,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Label RichText="event name, participant, location, date --- AFTER THE PAYMENT STEP YOU HAVE TO DOWNLOAD YOUR TICKET FROM YOUR ORDERS" FontFamily="google:Bangers;400" Id="84d84e8f-3b21-48fa-b3a4-79a8b8692289" Panel.Bounds="14,32,5*{5,2147483647},5*{5,2147483647}" />
+                                                <ContainerBox Id="7c668a16-38bc-44b1-a29d-ea3ba8d8b75a" Panel.Bounds="15,75,271{5,2147483647},214{5,2147483647}">
+                                                    <ContainerBox.Content>
+                                                        <Container ClipToContainer="True" Id="03ac1951-1165-4dfc-a8e8-4bc62c59d9be">
+                                                            <Container.Children>
+                                                                <Image SourcePath="assets/Download.png" Id="1c06eeed-f10b-418f-a508-696a6f0ef6a5" Panel.Bounds="3,3,263{5,2147483647},50{5,2147483647}" />
+                                                                <TextBox FontFamily="google:Bangers;400" Id="ed027023-5501-4f72-b6ff-8bfe5cb295c2" Panel.Bounds="16,143,240{5,2147483647},5*{5,2147483647}" />
+                                                                <Label RichText="email or username:" FontFamily="google:Bangers;400" Id="c4b6aa39-6293-4644-afd8-e548538f1cc1" Panel.Bounds="16,125,5*{5,2147483647},5*{5,2147483647}" />
+                                                                <Label RichText="password" FontFamily="google:Bangers;400" Id="236ff293-d287-4961-ac4d-beaa97ad3aa1" Panel.Bounds="16,166,5*{5,2147483647},5*{5,2147483647}" />
+                                                                <PasswordBox FontFamily="google:Bangers;400" Id="20342fa0-822c-4231-92bc-09449f1524ea" Panel.Bounds="15,184,238{5,2147483647},5*{5,2147483647}" />
+                                                                <TextBox FontFamily="google:Bangers;400" Id="5af32bf6-bf53-4e3d-91c9-d95f57e7b02d" Panel.Bounds="16,100,240{5,2147483647},5*{5,2147483647}" />
+                                                                <Label RichText="First and last name" FontFamily="google:Bangers;400" Id="d18bb492-d1d8-4c30-ae2e-78509f167548" Panel.Bounds="16,81,5*{5,2147483647},5*{5,2147483647}" />
+                                                            </Container.Children>
+                                                        </Container>
+                                                    </ContainerBox.Content>
+                                                </ContainerBox>
+                                                <ContainerBox Id="1d7c25a8-a54c-4061-bf06-24a16b495662" Panel.Bounds="297,75,271{5,2147483647},214{5,2147483647}">
+                                                    <ContainerBox.Content>
+                                                        <Container ClipToContainer="True" Id="f90ddf35-509d-4d78-9226-106b4583d573">
+                                                            <Container.Children>
+                                                                <Image SourcePath="assets/Download.jpg" Id="d6eaf018-9aa6-4973-b7d3-fd823269b5f9" Panel.Bounds="4,4,261{5,2147483647},65{5,2147483647}" />
+                                                                <Label RichText="aCCOUNT NUMBER" FontFamily="google:Bangers;400" Id="08116e04-8abb-49e0-bbb0-4517a741a7a4" Panel.Bounds="12,126,5*{5,2147483647},5*{5,2147483647}" />
+                                                                <TextBox FontFamily="google:Bangers;400" Id="3e6233c7-c839-4fb7-94c1-81763cf0e1ec" Panel.Bounds="12,144,248{5,2147483647},5*{5,2147483647}" />
+                                                                <Label RichText="POST CODE" FontFamily="google:Bangers;400" Id="2f468bb0-e6c8-4ec8-8d24-287d0b044a62" Panel.Bounds="12,167,5*{5,2147483647},5*{5,2147483647}" />
+                                                                <TextBox FontFamily="google:Bangers;400" Id="1cb89ab9-f2eb-4046-8267-5dcd5225d947" Panel.Bounds="11,185,248{5,2147483647},5*{5,2147483647}" />
+                                                                <TextBox FontFamily="google:Bangers;400" Id="53d2365c-f09f-43d9-831d-11660a1ab039" Panel.Bounds="12,101,248{5,2147483647},5*{5,2147483647}" />
+                                                                <Label RichText="first and last name" FontFamily="google:Bangers;400" Id="5a0795a3-8bb1-42bf-98d3-7ac778657860" Panel.Bounds="12,82,5*{5,2147483647},5*{5,2147483647}" />
+                                                            </Container.Children>
+                                                        </Container>
+                                                    </ContainerBox.Content>
+                                                </ContainerBox>
+                                                <Button Text="BUY" Background="#FF75D181" FontFamily="google:Bangers;400" Id="2585de2a-efb0-49f5-be81-00866e52bac6" Panel.Bounds="14,296,553{5,2147483647},35{5,2147483647}" />
+                                                <Label RichText="pay with your pay pal account" FontFamily="google:Bangers;400" Id="e1c64e8b-9635-4324-ae5f-0138a8cdabe4" Panel.Bounds="14,57,5*{5,2147483647},5*{5,2147483647}" />
+                                                <Label RichText="pay with your banc account" FontFamily="google:Bangers;400" Id="9956d5c6-2486-41ab-9aac-799388d6aa62" Panel.Bounds="296,57,5*{5,2147483647},5*{5,2147483647}" />
+                                            </Container.Children>
+                                        </Container>
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="4e6aa916-f497-425d-9a48-35b87d17604e">
+                            <Add.Item>
+                                <Label RichText="privacy police" Foreground="#FFE2E2E2" FontFamily="google:Bangers;400" Id="78a83d54-9d53-4e49-bd8b-c3025333e52d" Panel.Bounds="367,576,5*{5,2147483647},5*{5,2147483647}">
+                                    <Label.Click>
+                                        <CommandNavigate Screen="/Privacy policy.screen" Created="11/04/2017 23:56:28" Id="d07d1a6c-14af-4b17-b17e-5ea0c1f0ed55">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Label.Click>
+                                </Label>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

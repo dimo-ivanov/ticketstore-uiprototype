@@ -1,0 +1,84 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   Id="fd75bcc2-dc37-41c5-b330-a7e82cc920f4">
+    <Page.Content>
+        <Content Width="800" Height="600" Id="16e38c20-56e9-46cc-80bf-5849ba58c48a">
+            <Content.Layers>
+                <Layer Id="022d01e7-8bc9-4209-a331-076f47c00e0c" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="924f8b61-57a3-450e-a4ba-3604b9915d2f" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="800,600" Id="3d0596d7-5f44-4cb3-b8ac-7eab0cc90d29" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="beec7ccf-78de-48a7-b6e0-2e5bcd423b83" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="11/04/2017 21:20:30" Id="394fd1bf-dfe9-449d-a9e7-12df0cdb61eb">
+            <Scene.KeyFrames>
+                <KeyFrame Id="cf1717c0-660c-4014-96e3-287ab810b8bf">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
+                            <Add.Item>
+                                <Image SourcePath="assets/DSC_0550.jpg" Id="d1eabf5c-41a8-4147-952d-f5cb93996194" Panel.Bounds="0,0,800{5,2147483647},600{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
+                            <Add.Item>
+                                <Title RichText="&lt;Run FontFamily=&quot;google:Bangers;400&quot; FontWeight=&quot;Normal&quot; FontStyle=&quot;Normal&quot; &gt;Ticket store&lt;/Run&gt;" Foreground="#FFFFFFFF" FontSize="72" Id="c5d9cd7d-9a08-40f9-86fe-86897d311949" Panel.Bounds="31,31,326{5,2147483647},72{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
+                            <Add.Item>
+                                <Button Text="log out" FontFamily="google:Bangers;400" Opacity="0.8" Id="694bcf42-9b0b-48fb-9547-d7e3566aeea9" Panel.Bounds="637,41,132{5,2147483647},23{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/IndexUnloged.screen" Created="11/04/2017 21:49:37" Id="a6eb78c2-4e24-4065-aab3-22908e7ff205">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
+                            <Add.Item>
+                                <Label RichText="privacy police" Foreground="#FFFFFFFF" FontFamily="google:Bangers;400" Id="85a3b6d2-3223-46ef-9a68-6a7a1b0dffde" Panel.Bounds="31,537,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
+                            <Add.Item>
+                                <Label RichText="&lt;Run FontSize=&quot;18&quot; Foreground=&quot;#FFFFFFFF&quot; &gt;administrator:&lt;/Run&gt;" Foreground="#FFFFFFFF" FontFamily="google:Bangers;400" Id="0e9f84e0-9b03-4091-b33c-aaaaca1123ad" Panel.Bounds="516,45,70*{5,2147483647},14{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
+                            <Add.Item>
+                                <Label RichText="&lt;Run Foreground=&quot;#FFFFFFFF&quot; &gt;profile&lt;/Run&gt;" FontFamily="google:Bangers;400" Id="b0b4d24f-ea67-4541-adc6-901eed7e654e" Panel.Bounds="736,74,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
+                            <Add.Item>
+                                <Label RichText="remove event" Foreground="#FFFFFFFF" FontFamily="google:Bangers;400" Id="f5747fbe-8e4f-4a9d-89e6-b3ae1237f59a" Panel.Bounds="663,74,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
+                            <Add.Item>
+                                <Label RichText="update event" Foreground="#FFFFFFFF" FontFamily="google:Bangers;400" Id="c7103bda-d7b3-493a-932f-0a30e3729727" Panel.Bounds="593,74,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="022d01e7-8bc9-4209-a331-076f47c00e0c">
+                            <Add.Item>
+                                <Label RichText="add new event" Foreground="#FFFFFFFF" FontFamily="google:Bangers;400" Id="d2f28abc-91ed-44c6-af4c-abe773e05625" Panel.Bounds="516,74,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

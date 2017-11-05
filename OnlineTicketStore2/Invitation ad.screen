@@ -1,0 +1,287 @@
+﻿<?Infragistics.Models format="xaml" version="29" appVersion="9.2.1000.51"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                                                   Id="f11df30b-c76b-4f22-a758-5df20079b197">
+    <Page.Content>
+        <Content Width="800" Height="600" Id="f68da7d5-7701-4490-ab23-49314974a81d">
+            <Content.Layers>
+                <Layer Id="ddf5c30f-47bf-425f-9be1-e06545d66988" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="231aa57d-6db1-444c-8a6a-de8d5d3aff1a" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="800,600" Id="c27d9b0c-be21-42ad-8100-5ade741913fe" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="9133bfde-e837-4dc5-95b2-acbd068b13ec" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="10/31/2017 19:02:07" Id="29d9ccc9-1cda-43cc-9ed7-9e19c2e9a3ac">
+            <Scene.KeyFrames>
+                <KeyFrame Id="083eedfe-6f2f-4440-b5ff-e0c398b9c452">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="ddf5c30f-47bf-425f-9be1-e06545d66988">
+                            <Add.Item>
+                                <Image SourcePath="assets/DSC_0550.jpg" Id="95784119-66e3-4b28-976f-e8d1182038d4" Panel.Bounds="1,-1,800{5,2147483647},600{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="ddf5c30f-47bf-425f-9be1-e06545d66988">
+                            <Add.Item>
+                                <TextArea Text="If you choose TicketStore to sell your tickets, we can do the work for you! TicketStore is Australia’s largest independent ticket company.&#xA;&#xA;The TicketStore System Features:&#xA;&#xA;&#x9;Secure Automated Online Sales 24/7&#xA;&#x9;National 1300 762 545 Call Centre&#xA;&#x9;National Retail Store Network&#xA;&#x9;Access to our 1 million+ database of event customers&#xA;&#x9;Online Marketing of Events via Newsletters and Social Networks&#xA;&#x9;Coverage on www.TicketStore.bg including Event Guide &amp; Category Pages&#xA;&#x9;Free To Use and No Running Costs&#xA;&#x9;Paperless Tickets - e–tickets, Print at Home Barcoded PDF Tickets or Door List Collection&#xA;&#x9;Printed physical tickets - including Your Logo &amp; Secure Hologram&#xA;&#x9;Automated Email Reports or Log In For Real Time Reporting&#xA;&#x9;Greenroom - our self–management dashboard for clients&#xA;&#x9;Optional &quot;White Label” Service- use your brand and artwork&#xA;&#x9;Event Ticket Scanning, Box office and Gate Management&#xA;&#x9;Ticket Printing Service&#xA;&#x9;Next Day Settlements&#xA;&#x9;NZTix - New Zealand Ticketing Now Available&#xA;&#xA;Contact Us!&#xA;Email: kirrcho6@gmail.com" Background="#FFFFFFFF" FontSize="13" FontFamily="Cambria" Id="c1114322-d111-4eff-a1d4-20d0b70567c9" Panel.Bounds="17,98,767{5,2147483647},371{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="ddf5c30f-47bf-425f-9be1-e06545d66988">
+                            <Add.Item>
+                                <Title RichText="Ticket store" Foreground="#FFFFFFFF" FontSize="72" FontFamily="google:Bangers;400" Id="da54f761-1f3a-469d-ae5b-7a1d80223888" Panel.Bounds="230,10,5*{5,2147483647},5*{5,2147483647}">
+                                    <Title.Click>
+                                        <CommandNavigate Screen="/IndexUnloged.screen" Created="11/04/2017 22:43:31" Id="0cedbb20-936d-44e2-8a54-f46b7477e73f">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Title.Click>
+                                </Title>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="ddf5c30f-47bf-425f-9be1-e06545d66988">
+                            <Add.Item>
+                                <Image SourcePath="assets/TicketYourEvent(1).jpg" Id="8c43faef-4e94-42e0-85b3-ac26e94bb694" Panel.Bounds="17,480,767{5,2147483647},107{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="ddf5c30f-47bf-425f-9be1-e06545d66988">
+                            <Add.Item>
+                                <Title RichText="Seal your event with us" FontSize="60" FontFamily="google:Bangers;400" Id="c1a6c5ba-e89c-4184-be90-4405f3c1e357" Panel.Bounds="149,492,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Disconnected State" StateGroup="29d9ccc9-1cda-43cc-9ed7-9e19c2e9a3ac" ParentScene="29d9ccc9-1cda-43cc-9ed7-9e19c2e9a3ac" Created="10/31/2017 19:12:40" Id="ba5f94cb-83a2-4c0a-9997-a02e129f0060">
+            <Scene.KeyFrames>
+                <KeyFrame Duration="200" Id="330639e0-2655-485d-adb9-41e3afd33885">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="ddf5c30f-47bf-425f-9be1-e06545d66988" Duration="200">
+                            <Add.Item>
+                                <Rectangle Background="#FFFFFFFF" Id="b199efca-cf3e-4a86-80a0-e3d0a12a663c" Panel.Bounds="284,148,421{5,2147483647},351{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="ddf5c30f-47bf-425f-9be1-e06545d66988" Duration="200">
+                            <Add.Item>
+                                <TextBox FontFamily="Cambria" Id="3bc81be5-e1e2-4437-ad60-76bbcadb7973" Name="Username" Panel.Bounds="392,230,165{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="ddf5c30f-47bf-425f-9be1-e06545d66988" Duration="200">
+                            <Add.Item>
+                                <Label RichText="Username:" FontSize="16" FontFamily="Cambria" FontStyle="Normal" Id="d3724782-80a4-42fc-823d-8c4140e84d60" Panel.Bounds="392,203,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="ddf5c30f-47bf-425f-9be1-e06545d66988" Duration="200">
+                            <Add.Item>
+                                <Label RichText="Password:" FontSize="16" FontFamily="Cambria" Id="43a71f61-fe70-4b78-b780-bdb759f8a198" Panel.Bounds="392,293,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="ddf5c30f-47bf-425f-9be1-e06545d66988" Duration="200">
+                            <Add.Item>
+                                <Label RichText="Forgot your password? " Foreground="#FF5FB5CC" FontSize="16" FontFamily="Cambria" FontStyle="Underline" Id="d403d77e-e314-4db9-94be-c6d6589fbdc3" Panel.Bounds="392,389,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="ddf5c30f-47bf-425f-9be1-e06545d66988" Duration="200">
+                            <Add.Item>
+                                <Button Text="Login" FontSize="16" FontFamily="Cambria" FontStyle="Bold" Id="78f08732-be01-4172-a43a-62a3205d47fe" Panel.Bounds="574,408,80{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandSwitchTo SceneId="c10c0f56-e356-43c6-8365-0b37a133c54f" Created="10/31/2017 20:01:42" Id="85789bda-c19f-45ff-b52a-0605248fd48b" />
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="ddf5c30f-47bf-425f-9be1-e06545d66988" Duration="200">
+                            <Add.Item>
+                                <Label RichText="Sign up" Foreground="#FF5FB5CC" FontSize="16" FontFamily="Cambria" Id="a936495d-f804-4d09-9bff-526710df0a8d" Panel.Bounds="447,424,5*{5,2147483647},5*{5,2147483647}">
+                                    <Label.Click>
+                                        <CommandSwitchTo SceneId="3b698ced-ddaf-43ab-98b6-b2c50b2f6e42" Created="10/31/2017 22:05:59" Id="54694300-6488-4662-ad85-bde21ea3006a" />
+                                    </Label.Click>
+                                </Label>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="ddf5c30f-47bf-425f-9be1-e06545d66988" Duration="200">
+                            <Add.Item>
+                                <Image SourcePath="assets/username-passfdfd.jpg" Id="316d2826-f4a8-4524-9efe-40552694e6da" Panel.Bounds="308,193,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="ddf5c30f-47bf-425f-9be1-e06545d66988">
+                            <Add.Item>
+                                <PasswordBox FontFamily="Cambria" Id="60bc9e83-10ad-478b-83e8-a561105efe99" Panel.Bounds="392,325,165{5,2147483647},0*{5,2147483647}">
+                                    <PasswordBox.KeyDown>
+                                        <ConditionalCommand Id="9cd89c26-7975-4813-8300-0ca4c751f29c">
+                                            <ConditionalCommand.Command>
+                                                <CommandSwitchTo SceneId="c10c0f56-e356-43c6-8365-0b37a133c54f" Created="10/31/2017 22:07:17" Id="85950cb2-d66d-4d9c-853b-978f934a17c1" />
+                                            </ConditionalCommand.Command>
+                                            <ConditionalCommand.Condition>
+                                                <KeyCondition Key="Enter" />
+                                            </ConditionalCommand.Condition>
+                                        </ConditionalCommand>
+                                    </PasswordBox.KeyDown>
+                                </PasswordBox>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped/Clicked Login" StateGroup="ba5f94cb-83a2-4c0a-9997-a02e129f0060" ParentScene="ba5f94cb-83a2-4c0a-9997-a02e129f0060" Created="10/31/2017 19:45:05" Id="c10c0f56-e356-43c6-8365-0b37a133c54f">
+            <Scene.KeyFrames>
+                <KeyFrame Duration="1250" Id="247df790-86de-46f7-871e-db3166dabedc">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="ddf5c30f-47bf-425f-9be1-e06545d66988" Duration="1250">
+                            <Add.Item>
+                                <Title RichText="Login successful!" Foreground="#FF75D181" FontFamily="Cambria" Id="1dde90e7-cb16-4769-95f0-3c61c2e3667c" Panel.Bounds="372,258,266{5,2147483647},100{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Content.SceneApplied" Target="f68da7d5-7701-4490-ab23-49314974a81d">
+                            <Add.Item>
+                                <ConditionalCommand Id="0f10dbb2-4fab-4e01-a0bb-c747414293fb">
+                                    <ConditionalCommand.Command>
+                                        <CommandSwitchTo SceneId="c3205f34-f509-4a47-967c-0cd874bc8b02" Created="10/31/2017 19:53:31" Id="59be94ea-1866-400e-b9ce-edef1bcdb5fc" />
+                                    </ConditionalCommand.Command>
+                                    <ConditionalCommand.Condition>
+                                        <SceneCondition Scene="c10c0f56-e356-43c6-8365-0b37a133c54f" />
+                                    </ConditionalCommand.Condition>
+                                </ConditionalCommand>
+                            </Add.Item>
+                        </Add>
+                        <Set Property="Control.Opacity" Value="1" Target="b199efca-cf3e-4a86-80a0-e3d0a12a663c" />
+                        <Set Property="Control.Opacity" Value="0" Target="3bc81be5-e1e2-4437-ad60-76bbcadb7973" />
+                        <Set Property="Control.Opacity" Value="0" Target="d3724782-80a4-42fc-823d-8c4140e84d60" />
+                        <Set Property="Control.Opacity" Value="0" Target="43a71f61-fe70-4b78-b780-bdb759f8a198" />
+                        <Set Property="Control.Opacity" Value="0" Target="d403d77e-e314-4db9-94be-c6d6589fbdc3" />
+                        <Set Property="Control.Opacity" Value="0" Target="a936495d-f804-4d09-9bff-526710df0a8d" />
+                        <Set Property="Control.Opacity" Value="0" Target="78f08732-be01-4172-a43a-62a3205d47fe" />
+                        <Set Property="Control.Opacity" Value="0" Target="316d2826-f4a8-4524-9efe-40552694e6da" />
+                        <Set Property="Control.Opacity" Value="0" Target="60bc9e83-10ad-478b-83e8-a561105efe99" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Got to Pressed Enter on Password" StateGroup="c10c0f56-e356-43c6-8365-0b37a133c54f" ParentScene="c10c0f56-e356-43c6-8365-0b37a133c54f" Created="10/31/2017 19:53:31" Id="c3205f34-f509-4a47-967c-0cd874bc8b02">
+            <Scene.KeyFrames>
+                <KeyFrame Duration="250" Id="012037ae-4e21-4d13-a4d2-f46218f53b54">
+                    <KeyFrame.Operations>
+                        <Set Property="Control.Opacity" Value="0" Target="b199efca-cf3e-4a86-80a0-e3d0a12a663c" />
+                        <Set Property="Control.Opacity" Value="0" Target="1dde90e7-cb16-4769-95f0-3c61c2e3667c" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Disconnected State" StateGroup="29d9ccc9-1cda-43cc-9ed7-9e19c2e9a3ac" ParentScene="29d9ccc9-1cda-43cc-9ed7-9e19c2e9a3ac" Created="10/31/2017 21:36:46" Id="3b698ced-ddaf-43ab-98b6-b2c50b2f6e42">
+            <Scene.KeyFrames>
+                <KeyFrame Duration="200" Id="19579237-32be-4f62-b91c-8a343d94692e">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="ddf5c30f-47bf-425f-9be1-e06545d66988" Duration="200">
+                            <Add.Item>
+                                <Rectangle Id="1568f170-a573-41fa-8c7d-f028fb73d6aa" Panel.Bounds="284,148,421{5,2147483647},351{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="ddf5c30f-47bf-425f-9be1-e06545d66988" Duration="200">
+                            <Add.Item>
+                                <Image SourcePath="assets/username-passfdfd.jpg" Id="3f07c432-f11e-4355-bd22-53a5df1e1e69" Panel.Bounds="308,283,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="ddf5c30f-47bf-425f-9be1-e06545d66988" Duration="200">
+                            <Add.Item>
+                                <Image SourcePath="assets/images.png" Id="a49150ba-1878-4138-a7ac-1e58f5d5614a" Panel.Bounds="308,193,72{5,2147483647},74{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="ddf5c30f-47bf-425f-9be1-e06545d66988" Duration="200">
+                            <Add.Item>
+                                <TextBox FontFamily="Cambria" Id="59d69bd7-1086-4361-87ca-23c3f23c2361" Panel.Bounds="392,230,165{5,2147483647},0*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="ddf5c30f-47bf-425f-9be1-e06545d66988" Duration="200">
+                            <Add.Item>
+                                <TextBox FontFamily="Cambria" Id="c2967232-5e5e-4737-b907-1e4a0cb7eb90" Panel.Bounds="392,325,165{5,2147483647},0*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="ddf5c30f-47bf-425f-9be1-e06545d66988" Duration="200">
+                            <Add.Item>
+                                <Label RichText="Email:" FontSize="16" FontFamily="Cambria" Id="b70be993-9ccf-49d8-9e27-ee143e8db2d9" Panel.Bounds="392,203,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="ddf5c30f-47bf-425f-9be1-e06545d66988" Duration="200">
+                            <Add.Item>
+                                <Label RichText="Username:" FontSize="16" FontFamily="Cambria" Id="bca7826f-8da3-483c-94aa-348a18c62a01" Panel.Bounds="392,295,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="ddf5c30f-47bf-425f-9be1-e06545d66988" Duration="200">
+                            <Add.Item>
+                                <Label RichText="Password:" FontSize="16" FontFamily="Cambria" Id="e762d99f-a274-4d2f-a2fe-81d2e26f7080" Panel.Bounds="392,383,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="ddf5c30f-47bf-425f-9be1-e06545d66988" Duration="200">
+                            <Add.Item>
+                                <Button Text="Register" FontSize="16" FontFamily="Cambria" FontStyle="Bold" Id="13c3c237-9965-469d-b850-85a1188225b3" Panel.Bounds="574,408,80{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandSwitchTo SceneId="9f314703-1294-43ef-b4da-0877f8d36a19" Created="10/31/2017 22:02:46" Id="df71a4b9-475c-4456-a6ed-7804665d7046" />
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="ddf5c30f-47bf-425f-9be1-e06545d66988" Duration="200">
+                            <Add.Item>
+                                <PasswordBox FontFamily="Cambria" Id="93b875d5-6a07-4bcb-8b51-c83453616808" Panel.Bounds="392,411,165{5,2147483647},0*{5,2147483647}">
+                                    <PasswordBox.KeyDown>
+                                        <ConditionalCommand Id="33078abe-3f3b-4b5c-8656-cb0a0acc3e7d">
+                                            <ConditionalCommand.Command>
+                                                <CommandSwitchTo SceneId="9f314703-1294-43ef-b4da-0877f8d36a19" Created="10/31/2017 22:10:01" Id="4512af2c-82ad-43d7-a37c-f26ab3f74d5d" />
+                                            </ConditionalCommand.Command>
+                                            <ConditionalCommand.Condition>
+                                                <KeyCondition Key="Enter" />
+                                            </ConditionalCommand.Condition>
+                                        </ConditionalCommand>
+                                    </PasswordBox.KeyDown>
+                                </PasswordBox>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped/Clicked Register" StateGroup="3b698ced-ddaf-43ab-98b6-b2c50b2f6e42" ParentScene="3b698ced-ddaf-43ab-98b6-b2c50b2f6e42" Created="10/31/2017 22:02:46" Id="9f314703-1294-43ef-b4da-0877f8d36a19">
+            <Scene.KeyFrames>
+                <KeyFrame Duration="1250" Id="020779fa-a861-4db8-a3e2-ef4ac50419f5">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="ddf5c30f-47bf-425f-9be1-e06545d66988" Duration="1250">
+                            <Add.Item>
+                                <Title RichText="Register successful!" Foreground="#FF75D181" FontFamily="Cambria" Id="4e4e9c7d-df6a-430d-806d-e578f0564e4f" Panel.Bounds="360,258,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Content.SceneApplied" Target="f68da7d5-7701-4490-ab23-49314974a81d">
+                            <Add.Item>
+                                <ConditionalCommand Id="bd232b18-fd75-4ddf-971d-73e9348b61b9">
+                                    <ConditionalCommand.Command>
+                                        <CommandSwitchTo SceneId="c3205f34-f509-4a47-967c-0cd874bc8b02" Created="10/31/2017 22:05:25" Id="cad3aa9c-c184-4eda-aebe-23607ddbbe5d" />
+                                    </ConditionalCommand.Command>
+                                    <ConditionalCommand.Condition>
+                                        <SceneCondition Scene="9f314703-1294-43ef-b4da-0877f8d36a19" />
+                                    </ConditionalCommand.Condition>
+                                </ConditionalCommand>
+                            </Add.Item>
+                        </Add>
+                        <Set Property="Control.Opacity" Value="0" Target="b70be993-9ccf-49d8-9e27-ee143e8db2d9" />
+                        <Set Property="Control.Opacity" Value="0" Target="a49150ba-1878-4138-a7ac-1e58f5d5614a" />
+                        <Set Property="Control.Opacity" Value="0" Target="3f07c432-f11e-4355-bd22-53a5df1e1e69" />
+                        <Set Property="Control.Opacity" Value="0" Target="c2967232-5e5e-4737-b907-1e4a0cb7eb90" />
+                        <Set Property="Control.Opacity" Value="0" Target="59d69bd7-1086-4361-87ca-23c3f23c2361" />
+                        <Set Property="Control.Opacity" Value="0" Target="bca7826f-8da3-483c-94aa-348a18c62a01" />
+                        <Set Property="Control.Opacity" Value="0" Target="e762d99f-a274-4d2f-a2fe-81d2e26f7080" />
+                        <Set Property="Control.Opacity" Value="0" Target="13c3c237-9965-469d-b850-85a1188225b3" />
+                        <Set Property="Control.Opacity" Value="0" Target="93b875d5-6a07-4bcb-8b51-c83453616808" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
