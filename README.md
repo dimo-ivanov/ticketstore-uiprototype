@@ -2,6 +2,7 @@
 SoftUni > Practical Teamwork - Sept 2017 > 03. Requirements and Prototyping
 
 ## Teamwork Assignment - Ticket Store
+[RUN PROTOTYPE](https://indigodesigned.com/share/run/jubrnvcdk48e#f=home)
 
 
 ### Team members info: 
@@ -9,6 +10,7 @@ SoftUni > Practical Teamwork - Sept 2017 > 03. Requirements and Prototyping
 * [Dimo Ivanov](https://softuni.bg/users/profile/show/dimo.ivanov)
 * [Kiril Koev](https://softuni.bg/users/profile/show/kirrcho6)
 * [Stoyan Zlatev](https://softuni.bg/users/profile/show/spzvtbg)
+
 
 
 ### Personal tasks:
